@@ -25,8 +25,8 @@ async def start(event):
         link_preview=False,
         buttons=(
             [
-                Button.url("ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
-                Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/JARVIS_V_SUPPORT")
+                Button.url("ᴏᴡɴᴇʀ", url="https://t.me/Alone_soulll"),
+                Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/the_comedy_bar")
             ]
         )
     )
@@ -39,8 +39,8 @@ async def help(event):
         link_preview=False,
         buttons=(
             [
-                Button.url("ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
-                Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/JARVIS_V_SUPPORT")
+                Button.url("ᴏᴡɴᴇʀ", url="https://t.me/Alone_soulll"),
+                Button.url("sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/the_comedy_bar")
             ]
         )
     )
@@ -137,5 +137,5 @@ async def cancel_spam(event):
             pass
         return await event.respond('__Stopped.__')
 
-print(">> Jarvis User TAgger Robot Started <<")
+print(">> tamanna User TAgger Robot Started <<")
 client.run_until_disconnected()
